@@ -6,9 +6,9 @@ CREATE TABLE arc (
 );
 
 /*
-—оздаем таблицу маршрутов, с помощью рекурсии
-»щем все возможные варианты обхода пунктов (строим гамильтонов цикл)
-и рассчитываем стоимость (по указанным весам путей)
+create table with routes
+make all possible variants of gamiltonian cycles
+count total weight of each path
 */
 
 INSERT INTO arc VALUES ('a', 'b', 10);
